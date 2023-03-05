@@ -698,6 +698,7 @@ transition: transform 250ms;
 .modal-form-field{
     flex-basis: 100%;
     position: relative;
+
 }
 .modal-line {
     display: block;
@@ -717,6 +718,7 @@ transition: transform 250ms;
 .modal-block:focus {
     outline: none;
     border: 1px solid var(--cl-hover);
+   
 
 }
 
@@ -724,7 +726,7 @@ transition: transform 250ms;
     position: absolute;
     left: 16px;
     top:50%;
-    transform: translate(0, -50%);
+    transform: translate(-50%);
     fill: var(--navy);
 }
 .modal-block:focus+.modal-icon-line {
@@ -774,17 +776,28 @@ transition: transform 250ms;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
+    padding-left: 8px;
+
+}
+.privacy-policy {
+    color: var(--cl-hover);
     
 }
+
+
 .modal-button-block{
-    display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    margin-top: 24px;
+    
 }
 .modal-button {
+    position: absolute;
+
+  
     background-color: var(--blue);
     color: var(--white);
+
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -795,9 +808,9 @@ transition: transform 250ms;
 
         padding: 16px 32px;
         width: 169px;
-        height: 56px ;
+       height: 56px ;
 
         text-align: center;
-        align-self: center;
+       align-self: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

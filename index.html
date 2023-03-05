@@ -435,7 +435,7 @@
         <div class="modal-form-field">
           <label class="modal-line" for="user-phone">
           Phone
-         <input class="modal-block" id="user-phone" type="tel" name="user-phone">
+      <input class="modal-block" id="user-phone" type="tel" name="user-phone" pattern="^/+[0-9]{12}">
          <svg class="modal-icon-line" width="12" height="12">
               <use href="./images/icons.svg#icon-Vector-phone"></use>
             </svg>
@@ -459,15 +459,20 @@
    
         <div class="modal-form-field">  
         
-        <input class="check-input" type="checkbox" name="agr">
-        <p class="check-text">I accept the terms and conditions of the <a class="" href="">Privacy Policy</a></p>
+        <input 
+        id="check" 
+        type="checkbox" 
+        name="check"
+        >
+        <label class="check-text">I accept the terms and conditions of the <a class="privacy-policy" href="">Privacy Policy</a></label>
       
-        </div>
-        </form> 
+        
      </div>
         <div class="modal-button-block">
         <button class="modal-button" type="submit" >Send</button> 
      </div>
+     </div>
+        </form> 
     </div>
     </div>
    
