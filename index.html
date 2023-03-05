@@ -419,8 +419,59 @@
           <use href=./images/icons.svg#icon-close-black-18dp-2-1></use>
         </svg>
         </button>
-      </div>
+          
+          <p class="modal-title">Leave your contacts and we will call you back</p>
+          <div class="modal-contakt-info">
+         <form class="modal-form" name="contact-form" autocomplete="on">
+          <div class="modal-form-field">
+          <label class="modal-line" for="user-name">
+          Name
+        <input class="modal-block" id="user-name" type="text" name="user-name">
+        <svg class="modal-icon-line" width="12" height="12">
+              <use href="./images/icons.svg#icon-Vector"></use>
+        </svg>
+        </label>
+        </div>
+        <div class="modal-form-field">
+          <label class="modal-line" for="user-phone">
+          Phone
+         <input class="modal-block" id="user-phone" type="tel" name="user-phone">
+         <svg class="modal-icon-line" width="12" height="12">
+              <use href="./images/icons.svg#icon-Vector-phone"></use>
+            </svg>
+          </label>
+          </div>
+        <div class="modal-form-field">
+          <label class="modal-line" for="user-email">
+          Email
+          <input class="modal-block" id="user-email" type="email" name="user-email">
+          <svg class="modal-icon-line" width="12" height="12">
+              <use href="./images/icons.svg#icon-Vector-email"></use>
+            </svg>
+          </label>
+          </div>
+        <div class="modal-form-field">
+          <label class="modal-line" for="user-comment">
+          Comment
+        <textarea class="text-comment modal-block" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+        </label>  
+        </div>
+   
+        <div class="modal-form-field">  
+        
+        <input class="check-input" type="checkbox" name="agr">
+        <p class="check-text">I accept the terms and conditions of the <a class="" href="">Privacy Policy</a></p>
+      
+        </div>
+        </form> 
+     </div>
+        <div class="modal-button-block">
+        <button class="modal-button" type="submit" >Send</button> 
+     </div>
     </div>
+    </div>
+   
+         
     <script src="./modal.js"></script>
   </body>
 </html>

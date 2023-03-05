@@ -689,3 +689,115 @@ transition: transform 250ms;
         left: 50%;
         transform: translate(-50%, -50%);
 }
+
+.modal-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.modal-form-field{
+    flex-basis: 100%;
+    position: relative;
+}
+.modal-line {
+    display: block;
+    color: var(--gray);
+    padding-bottom: 4px;
+}
+
+.modal-block{
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 360px ;
+    height: 40px;
+    padding-left: 40px;
+   
+}
+.modal-block:focus {
+    outline: none;
+    border: 1px solid var(--cl-hover);
+
+}
+
+.modal-icon-line{
+    position: absolute;
+    left: 16px;
+    top:50%;
+    transform: translate(0, -50%);
+    fill: var(--navy);
+}
+.modal-block:focus+.modal-icon-line {
+    fill: var(--cl-hover);
+}
+
+
+.modal-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--navy);
+    padding-top: 72px;
+   text-align: center;
+}
+.modal-contakt-info{
+    width: 360px;
+    height: 336px;
+    margin-bottom: 16px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 16px;
+
+}
+.text-comment {
+    resize: none;
+    width: 360px;
+    height: 120px;
+    padding-left: 16px;
+}
+.check-option {
+    
+    
+    
+   
+}
+.check-input{
+    position: relative;
+    appearance: none;
+    position: absolute;
+    
+}
+
+
+.check-text{
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    
+}
+.modal-button-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.modal-button {
+    background-color: var(--blue);
+    color: var(--white);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px ;
+
+        text-align: center;
+        align-self: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
