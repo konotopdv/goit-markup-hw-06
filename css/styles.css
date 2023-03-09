@@ -583,13 +583,11 @@ background-color: var(--white);}
    }
 
    .footer-icon{
-   
     top: 0%;
     right:0%;
-    fill: var(--white);
+    fill: var(--white);}
     
   
-   }
 
 .nav-portfolio {
     padding-top: 96px ;
@@ -758,9 +756,10 @@ transition: transform 250ms;
 
 .modal-icon{
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+       
 }
 
 .modal-form{
