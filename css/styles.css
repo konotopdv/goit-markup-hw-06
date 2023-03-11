@@ -775,8 +775,8 @@ transition: transform 250ms;
     height: 100%;
     margin-bottom: 4px;
     font-size: 12px;
-        line-height: 1.16;
-        color: var(--gray);
+    line-height: 1.16;
+    color: var(--gray);
    
 
 }
@@ -787,6 +787,12 @@ transition: transform 250ms;
     line-height: 1.16;
 
 }
+.modal-span{
+    display: block;
+position: relative;
+align-items: center;
+justify-content: center;
+}
 
 .modal-block{
     width: 100%;
@@ -796,8 +802,6 @@ transition: transform 250ms;
     height: 40px;
     padding-left: 40px;
     
-   
-   
 }
 .modal-block:focus {
     outline: none;
@@ -810,11 +814,12 @@ transition: transform 250ms;
     position: absolute;
     left: 16px;
     top:50%;
-    transform: translate(0, -50%);
+    transform: translateY(-50%);
     fill: var(--navy);
-    padding-top: 8px;
+
     
 }
+
 .modal-block:focus+.modal-icon-line {
     fill: var(--cl-hover);
 }
@@ -865,7 +870,7 @@ transition: transform 250ms;
 }
 
 .check-input:checked + .check-box {
-background-image: url('../images/checkbox.svg');
+background-image: url('../images/Checkbox.svg');
 background-color: var(--cl-hover);
 background-position: center;
 }
